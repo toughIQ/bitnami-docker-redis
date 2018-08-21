@@ -360,7 +360,7 @@ services:
 Scale the number of slaves using:
 
 ```bash
-$ docker-compose scale redis-master=1 redis-secondary=3
+$ docker-compose scale redis-master=1 redis-slave=3
 ```
 
 The above command scales up the number of slaves to `3`. You can scale down in the same way.
